@@ -7,7 +7,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 
-MODEL_PATH = "/fs/dev/nn/model"
+MODEL_PATH = "/fs/dev/neural-nets/model"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 transform = transforms.ToTensor()
